@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Svg_Add" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M740.828151 485.179145 538.820344 485.179145 538.820344 283.185664c0-14.81645-11.989055-26.820855-26.820855-26.820855-14.769378 0-26.790156 12.004405-26.790156 26.820855l-0.013303 201.99348L283.200502 485.179145c-14.801101 0-26.820855 12.019755-26.820855 26.820855 0 14.81645 12.019755 26.819832 26.820855 26.819832l201.991434 0-0.013303 201.994504c0 14.800078 12.051477 26.821879 26.820855 26.821879 14.8318 0 26.820855-12.021801 26.820855-26.821879L538.820344 538.819832l201.979154 0c14.8318 0 26.820855-12.003382 26.820855-26.819832S755.631298 485.179145 740.828151 485.179145z"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginButton.Text.Loding" xml:space="preserve">
+    <value>加载中……</value>
+  </data>
+  <data name="AccountInput.PrefixText" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="PasswordInput.PrefixText" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="Svg_Max" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M880.91005631 90.125H332.55160842a52.70143661 52.70143661 0 0 0-52.70143661 52.70143661v105.40287324H143.08994369a52.70143661 52.70143661 0 0 0-52.70143661 52.70143661v579.71580276a52.70143661 52.70143661 0 0 0 52.70143661 52.70143662h579.71580277a52.70143661 52.70143661 0 0 0 52.70143662-52.70143662v-137.55074935h105.40287323a52.70143661 52.70143661 0 0 0 52.70143661-52.70143662V142.82643661a52.70143661 52.70143661 0 0 0-52.70143661-52.70143661z m-158.10430985 600.26936325V880.64654923H143.08994369V300.93074646h579.71580277z m155.99625238 0H775.50718308V300.93074646a52.70143661 52.70143661 0 0 0-52.70143662-52.70143661H332.55160842V142.82643661H880.91005631z"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="Svg_Delete" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M871 298.1h-75.4v477.8c0 55.5-45 100.6-100.6 100.6H368.1c-55.6 0-100.6-45-100.6-100.6V298.1h-50.3c-13.9 0-25.1-11.3-25.1-25.1 0-13.9 11.3-25.1 25.1-25.1H871c13.9 0 25.1 11.3 25.1 25.1 0.1 13.8-11.2 25.1-25.1 25.1z m-125.7 0H317.8v477.8c0 27.8 22.5 50.3 50.3 50.3H695c27.8 0 50.3-22.5 50.3-50.3V298.1zM594.4 700.4c-13.9 0-25.1-11.3-25.1-25.1V398.6c0-13.9 11.3-25.1 25.1-25.1 13.9 0 25.1 11.3 25.1 25.1v276.6c0 14-11.2 25.2-25.1 25.2z m-125.7 0c-13.9 0-25.1-11.3-25.1-25.1V398.6c0-13.9 11.3-25.1 25.1-25.1 13.9 0 25.1 11.3 25.1 25.1v276.6c0 14-11.3 25.2-25.1 25.2z m150.8-502.9h-176c-13.9 0-25.1-11.3-25.1-25.1 0-13.9 11.3-25.1 25.1-25.1h176c13.9 0 25.1 11.3 25.1 25.1 0.1 13.8-11.2 25.1-25.1 25.1z m0 0"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="Svg_DialogClose" xml:space="preserve">
+    <value>&lt;svg viewBox="64 64 896 896"&gt;&lt;path d="M799.86 166.31c.02 0 .04.02.08.06l57.69 57.7c.04.03.05.05.06.08a.12.12 0 010 .06c0 .03-.02.05-.06.09L569.93 512l287.7 287.7c.04.04.05.06.06.09a.12.12 0 010 .07c0 .02-.02.04-.06.08l-57.7 57.69c-.03.04-.05.05-.07.06a.12.12 0 01-.07 0c-.03 0-.05-.02-.09-.06L512 569.93l-287.7 287.7c-.04.04-.06.05-.09.06a.12.12 0 01-.07 0c-.02 0-.04-.02-.08-.06l-57.69-57.7c-.04-.03-.05-.05-.06-.07a.12.12 0 010-.07c0-.03.02-.05.06-.09L454.07 512l-287.7-287.7c-.04-.04-.05-.06-.06-.09a.12.12 0 010-.07c0-.02.02-.04.06-.08l57.7-57.69c.03-.04.05-.05.07-.06a.12.12 0 01.07 0c.03 0 .05.02.09.06L512 454.07l287.7-287.7c.04-.04.06-.05.09-.06a.12.12 0 01.07 0z"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="Svg_ShowCard" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M406.72323609 154.94049073c4.40991211 0 8.05352783 3.64361573 8.05352782 8.05352783V406.53125c0 4.41073609-3.64361573 8.0543518-8.05352782 8.0543518H162.99401856c-4.40991211 0-8.05352783-3.64361573-8.05352783-8.0543518V162.99401856c0-4.40991211 3.64361573-8.05352783 8.05352782-8.05352783h243.72921754m0-64.81549073H162.99401856C122.91589355 90.125 90.125 122.91589355 90.125 162.99401856V406.53125c0 40.27011109 32.79089356 72.86901855 72.86901855 72.86901855H406.53125c40.27011109 0 72.86901855-32.79089356 72.86901855-72.86901855V162.99401856C479.59307862 122.91589355 446.80136109 90.125 406.72323609 90.125zM861.00598144 154.94049073c4.40991211 0 8.05352783 3.64361573 8.05352783 8.05352783V406.53125c0 4.41073609-3.64361573 8.0543518-8.05352782 8.0543518H617.46875c-4.41073609 0-8.0543518-3.64361573-8.0543518-8.0543518V162.99401856c0-4.40991211 3.64361573-8.05352783 8.0543518-8.05352783h243.53723144m1e-8-64.81549073H617.46875c-40.27011109 0-72.86901855 32.79089356-72.86901855 72.86901855V406.53125c0 40.27011109 32.79089356 72.86901855 72.86901855 72.86901855h243.53723144c40.26928711 0 72.86901855-32.79089356 72.86901856-72.86901855V162.99401856C933.875 122.91589355 901.08410645 90.125 861.00598144 90.125zM406.72323609 609.4143982c4.40991211 0 8.05352783 3.64361573 8.05352782 8.0543518v243.53723144c0 4.40991211-3.64361573 8.05352783-8.05352782 8.05352783H162.99401856c-4.40991211 0-8.05352783-3.64361573-8.05352783-8.05352782V617.46875c0-4.41073609 3.64361573-8.0543518 8.05352782-8.0543518h243.72921754m0-65.00665284H162.99401856C122.72473144 544.40692138 90.125 577.19863891 90.125 617.27676391v243.53723145c0 40.27011109 32.79089356 72.86901855 72.86901855 72.86901855H406.53125c40.27011109 0 72.86901855-32.79089356 72.86901855-72.86901855V617.27676391c0.19198609-40.078125-32.59890747-72.86901855-72.67703246-72.86901855zM861.00598144 609.4143982c4.40991211 0 8.05352783 3.64361573 8.05352783 8.0543518v243.53723144c0 4.40991211-3.64361573 8.05352783-8.05352782 8.05352783H617.46875c-4.41073609 0-8.0543518-3.64361573-8.0543518-8.05352782V617.46875c0-4.41073609 3.64361573-8.0543518 8.0543518-8.0543518h243.53723144m1e-8-65.00665284H617.46875c-40.27011109 0-72.86901855 32.79089356-72.86901855 72.86901855v243.53723145c0 40.27011109 32.79089356 72.86901855 72.86901855 72.86901855h243.53723144c40.26928711 0 72.86901855-32.79089356 72.86901856-72.86901855V617.27676391c0-40.078125-32.79089356-72.86901855-72.86901855-72.86901855z"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="Svg_ShowList" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M170.666667 213.333333h682.666666v85.333334H170.666667V213.333333z m0 512h426.666666v85.333334H170.666667v-85.333334z m0-256h682.666666v85.333334H170.666667v-85.333334z"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="Svg_Lite" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M512 430.08a81.92 81.92 0 1 1-81.92 81.92 81.92 81.92 0 0 1 81.92-81.92z m327.68 40.96a40.96 40.96 0 1 1-40.96 40.96 40.96 40.96 0 0 1 40.96-40.96zM184.32 471.04a40.96 40.96 0 1 1-40.96 40.96 40.96 40.96 0 0 1 40.96-40.96z"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="Svg_Restore" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M399.36 563.2c-7.68 0-12.8-2.56-17.92-7.68l-112.64-112.64c-7.68-10.24-12.8-20.48-12.8-33.28s5.12-23.04 12.8-33.28l112.64-112.64c10.24-10.24 25.6-10.24 35.84 0 10.24 10.24 10.24 25.6 0 35.84L309.76 409.6l110.08 110.08c10.24 10.24 10.24 25.6 0 35.84-5.12 5.12-12.8 7.68-20.48 7.68z m-94.72-148.48zM568.32 768h-204.8c-15.36 0-25.6-10.24-25.6-25.6s10.24-25.6 25.6-25.6h204.8c81.92 0 148.48-64 148.48-140.8S650.24 435.2 568.32 435.2H299.52c-15.36 0-25.6-10.24-25.6-25.6s10.24-25.6 25.6-25.6h268.8c110.08 0 199.68 87.04 199.68 192S678.4 768 568.32 768zM568.32 768h-204.8c-15.36 0-25.6-10.24-25.6-25.6s10.24-25.6 25.6-25.6h204.8c81.92 0 148.48-64 148.48-140.8S650.24 435.2 568.32 435.2H281.6c-15.36 0-25.6-10.24-25.6-25.6s10.24-25.6 25.6-25.6h286.72c110.08 0 199.68 87.04 199.68 192S678.4 768 568.32 768z"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="Svg_Icon" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M774.016 85.333333h-112.426667V21.76a21.333333 21.333333 0 0 0-42.666666 0V85.333333h-85.333334V21.76a21.333333 21.333333 0 0 0-42.666666 0V85.333333h-85.333334V21.76a21.333333 21.333333 0 0 0-42.666666 0V85.333333H250.496a122.368 122.368 0 0 0-122.24 122.24v694.186667A122.368 122.368 0 0 0 250.496 1024h523.52a122.368 122.368 0 0 0 122.24-122.24V207.573333A122.368 122.368 0 0 0 774.016 85.333333z m79.573333 816.426667A79.701333 79.701333 0 0 1 774.016 981.333333H250.496a79.701333 79.701333 0 0 1-79.573333-79.573333V207.573333C170.922667 163.712 206.634667 128 250.496 128h112.426667v21.461333a21.333333 21.333333 0 0 0 42.666666 0V128h85.333334v21.461333a21.333333 21.333333 0 0 0 42.666666 0V128h85.333334v21.461333a21.333333 21.333333 0 0 0 42.666666 0V128h112.426667c43.861333 0 79.573333 35.669333 79.573333 79.573333v694.186667zM701.354667 341.333333H320.469333a21.333333 21.333333 0 0 0 0 42.666667h380.885334a21.333333 21.333333 0 0 0 0-42.666667zM701.354667 512H320.469333a21.333333 21.333333 0 0 0 0 42.666667h380.885334a21.333333 21.333333 0 0 0 0-42.666667zM701.354667 682.666667H320.469333a21.333333 21.333333 0 0 0 0 42.666666h380.885334a21.333333 21.333333 0 0 0 0-42.666666z"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="Svg_Edit" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M153.6 902.656a32.256 32.256 0 0 1 0-64h716.8a32.256 32.256 0 0 1 0 64zM743.936 151.04l72.192 72.192a51.2 51.2 0 0 1 0 72.192L358.4 751.616a51.2 51.2 0 0 1-36.352 14.848H226.816a25.6 25.6 0 0 1-25.6-25.6v-97.792a51.2 51.2 0 0 1 14.848-36.352l455.68-455.68a51.2 51.2 0 0 1 72.192 0z m-478.72 497.152v54.272h54.272l442.88-442.88L708.096 204.8z"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="Svg_Setting" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M502.184585 951.221073c-12.487805 0-24.97561 0-37.463414-2.497561-37.463415-2.497561-64.936585-32.468293-64.936586-67.434146 0-24.97561-14.985366-44.956098-37.463414-54.946342-24.97561-9.990244-52.44878-4.995122-69.931708 12.487805l-22.478048 14.985366c-24.97561 9.990244-52.44878 4.995122-72.429269-9.990244-17.482927-14.985366-37.463415-32.468293-52.44878-49.951219-24.97561-27.473171-22.478049-67.434146 4.995122-92.409756 17.482927-17.482927 22.478049-42.458537 14.985366-62.439025-9.990244-22.478049-32.468293-37.463415-57.443903-37.463414h-2.497561c-34.965854 0-67.434146-27.473171-69.931707-62.439025-2.497561-22.478049-2.497561-47.453659 0-69.931707 2.497561-17.482927 9.990244-32.468293 22.478049-44.956098 12.487805-9.990244 29.970732-17.482927 47.453658-17.482927 7.492683 0 17.482927-2.497561 24.97561-4.995121 19.980488-7.492683 32.468293-22.478049 37.463415-42.458537 4.995122-19.980488-2.497561-37.463415-17.482927-52.448781-27.473171-24.97561-27.473171-64.936585-4.995122-92.409756 14.985366-17.482927 32.468293-34.965854 52.44878-49.951219 27.473171-22.478049 69.931707-19.980488 94.907317 2.497561 17.482927 17.482927 44.956098 22.478049 69.931708 12.487805 24.97561-9.990244 39.960976-29.970732 37.463414-54.946342 0-34.965854 27.473171-64.936585 64.936586-67.434146 24.97561-2.497561 49.95122-2.497561 72.429268 0 37.463415 12.487805 64.936585 42.458537 64.936585 77.42439 0 24.97561 14.985366 44.956098 37.463415 54.946342 24.97561 9.990244 52.44878 4.995122 69.931707-12.487805 24.97561-24.97561 64.936585-27.473171 94.907317-4.995122 19.980488 14.985366 37.463415 32.468293 52.448781 49.951219 24.97561 27.473171 22.478049 67.434146-4.995122 92.409756-17.482927 17.482927-22.478049 42.458537-12.487805 62.439025 9.990244 22.478049 34.965854 37.463415 59.941463 37.463414 34.965854 0 67.434146 27.473171 69.931708 62.439025 2.497561 22.478049 2.497561 47.453659 0 69.931707-2.497561 34.965854-32.468293 62.439024-69.931708 62.439025-24.97561 0-47.453659 14.985366-57.443902 34.965853-9.990244 22.478049-4.995122 47.453659 12.487805 62.439025 27.473171 24.97561 27.473171 64.936585 4.995122 92.409756-14.985366 17.482927-32.468293 34.965854-52.448781 49.951219-27.473171 22.478049-69.931707 19.980488-94.907317-4.995122-17.482927-17.482927-44.956098-22.478049-69.931707-12.487805-24.97561 9.990244-39.960976 29.970732-37.463415 54.946342 0 27.473171-17.482927 52.44878-42.458536 62.439024-7.492683 2.497561-12.487805 4.995122-19.980488 4.995122-14.985366-2.497561-27.473171-2.497561-39.960976-2.497561z m-164.839024-164.839024c12.487805 0 24.97561 2.497561 37.463415 7.492683 37.463415 14.985366 62.439024 49.95122 62.439024 89.912195 0 14.985366 12.487805 27.473171 29.970732 29.970732 22.478049 2.497561 44.956098 2.497561 67.434146 0 2.497561 0 7.492683 0 9.990244-2.497561 12.487805-4.995122 19.980488-14.985366 19.980488-27.473171 0-39.960976 24.97561-74.926829 62.439024-89.912195 37.463415-14.985366 79.921951-7.492683 109.892683 19.980488 12.487805 12.487805 32.468293 12.487805 44.956098 2.49756 17.482927-14.985366 32.468293-29.970732 47.453658-44.956097 9.990244-12.487805 9.990244-27.473171-2.497561-39.960976-29.970732-27.473171-37.463415-69.931707-22.478049-104.897561 14.985366-37.463415 52.44878-59.941463 92.409757-59.941463 17.482927 0 29.970732-12.487805 32.468292-27.473171 2.497561-19.980488 2.497561-42.458537 0-64.936585-2.497561-14.985366-14.985366-27.473171-32.468292-27.473171-39.960976 0-77.42439-22.478049-92.409757-59.941463-14.985366-37.463415-7.492683-79.921951 22.478049-107.395122 12.487805-9.990244 12.487805-27.473171 2.497561-39.960976-14.985366-14.985366-29.970732-32.468293-47.453658-44.956097-12.487805-9.990244-32.468293-9.990244-44.956098 2.497561-29.970732 27.473171-72.429268 34.965854-109.892683 19.980487-37.463415-14.985366-62.439024-49.95122-62.439024-89.912195 0-14.985366-12.487805-27.473171-29.970732-29.970731-22.478049-2.497561-44.956098-2.497561-67.434146 0-17.482927 2.497561-29.970732 14.985366-29.970732 29.970731 0 39.960976-24.97561 74.926829-62.439024 89.912195-37.463415 14.985366-79.921951 7.492683-109.892683-19.980487-9.990244-4.995122-29.970732-4.995122-42.458537 4.995121-17.482927 12.487805-34.965854 27.473171-47.453658 44.956098-12.487805 9.990244-9.990244 27.473171 0 39.960976 24.97561 22.478049 34.965854 54.946341 27.47317 87.414634-7.492683 32.468293-29.970732 57.443902-59.941463 69.931707-12.487805 4.995122-24.97561 7.492683-37.463415 7.492683-9.990244 0-17.482927 2.497561-22.478049 7.492683-4.995122 4.995122-9.990244 12.487805-9.990243 19.980488-2.497561 19.980488-2.497561 42.458537 0 64.936585 2.497561 14.985366 14.985366 27.473171 32.468292 27.473171h2.497561c39.960976 0 77.42439 22.478049 92.409756 59.941463 14.985366 37.463415 7.492683 77.42439-22.478048 104.897561-12.487805 9.990244-12.487805 27.473171-2.497561 39.960976 14.985366 14.985366 29.970732 32.468293 47.453658 44.956097 9.990244 7.492683 22.478049 9.990244 34.965854 4.995122 4.995122-2.497561 7.492683-4.995122 9.990244-7.492683 19.980488-22.478049 44.956098-32.468293 69.931707-32.468292z m164.839024-142.360976c-54.946341 0-107.395122-29.970732-129.87317-82.419512-14.985366-32.468293-14.985366-67.434146 0-99.902439 14.985366-34.965854 42.458537-59.941463 77.42439-74.926829 72.429268-27.473171 154.84878 4.995122 184.819512 72.429268 14.985366 32.468293 14.985366 67.434146 0 99.902439-14.985366 34.965854-42.458537 59.941463-77.42439 74.926829-17.482927 7.492683-37.463415 9.990244-54.946342 9.990244z m0-232.273171c-12.487805 0-27.473171 2.497561-39.960975 7.492683-27.473171 9.990244-47.453659 29.970732-57.443903 54.946342-9.990244 22.478049-9.990244 49.95122 0 72.429268 22.478049 49.95122 82.419512 72.429268 137.365854 52.448781 27.473171-9.990244 47.453659-29.970732 57.443902-54.946342 9.990244-22.478049 9.990244-49.95122 0-72.429268-17.482927-37.463415-57.443902-59.941463-97.404878-59.941464z"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="AccountInput.PlaceholderText" xml:space="preserve">
+    <value>请输入邮箱账号</value>
+  </data>
+  <data name="LoginButton.Text" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="LoginButton.Text.Logging" xml:space="preserve">
+    <value>登录中</value>
+  </data>
+  <data name="AutoLoginLabel.Text" xml:space="preserve">
+    <value>自动登录</value>
+  </data>
+  <data name="RememberLabel.Text" xml:space="preserve">
+    <value>记住密码</value>
+  </data>
+  <data name="LoginButton.Text.AutoLogin" xml:space="preserve">
+    <value>{0}秒后自动登录，取消</value>
+  </data>
+  <data name="Loading_LoadingSettings" xml:space="preserve">
+    <value>加载配置中……</value>
+  </data>
+  <data name="Loading_EMallNotSupport" xml:space="preserve">
+    <value>不支持该邮箱</value>
+  </data>
+  <data name="Loading_LoginFailed" xml:space="preserve">
+    <value>登录失败：</value>
+  </data>
+  <data name="Valid_AccountRequired" xml:space="preserve">
+    <value>账号不能为空</value>
+  </data>
+  <data name="Valid_Account" xml:space="preserve">
+    <value>账号不正确</value>
+  </data>
+  <data name="Valid_PasswordRequired" xml:space="preserve">
+    <value>密码不能为空</value>
+  </data>
+  <data name="SortButton.Tips" xml:space="preserve">
+    <value>时间降序,时间升序,名称升序,名称降序</value>
+  </data>
+  <data name="FloatButton.ConfigBtn.Select.All" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="FloatButton.ConfigBtn.Select.Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Text_View" xml:space="preserve">
+    <value>查看</value>
+  </data>
+  <data name="FloatButton.ConfigBtn.Delete.Notification.Title" xml:space="preserve">
+    <value>确认删除</value>
+  </data>
+  <data name="FloatButton.ConfigBtn.Delete.Notification.Content" xml:space="preserve">
+    <value>确认删除{0}条笔记，删除后不可恢复</value>
+  </data>
+  <data name="Loading_DeleteSuccess" xml:space="preserve">
+    <value>删除成功</value>
+  </data>
+  <data name="Loading_DeleteFailed" xml:space="preserve">
+    <value>删除失败：</value>
+  </data>
+  <data name="Loading_LoadNotes" xml:space="preserve">
+    <value>努力加载数据中……</value>
+  </data>
+  <data name="Notification_LoadNotes_Title_Failed" xml:space="preserve">
+    <value>加载数据失败</value>
+  </data>
+  <data name="Notification_LoadNotes_Reload" xml:space="preserve">
+    <value>重新加载</value>
+  </data>
+  <data name="Mall_ConnectFailed" xml:space="preserve">
+    <value>连接服务器失败</value>
+  </data>
+  <data name="Mall_AuthFailed_IncorrectPassword" xml:space="preserve">
+    <value>授权失败密码不正确</value>
+  </data>
+  <data name="Mall_AuthFailed" xml:space="preserve">
+    <value>授权失败</value>
+  </data>
+  <data name="Text_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Button.Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Loading_SaveSuccess" xml:space="preserve">
+    <value>保存成功</value>
+  </data>
+  <data name="Loading_SaveFailed" xml:space="preserve">
+    <value>保存失败：</value>
+  </data>
+  <data name="Text_Nothing" xml:space="preserve">
+    <value>什么都没有……</value>
+  </data>
+  <data name="Text_New" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="Text_Edit" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="Button.Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="CopySuccess" xml:space="preserve">
+    <value>复制成功</value>
+  </data>
+  <data name="CopyFailed" xml:space="preserve">
+    <value>复制失败</value>
+  </data>
+  <data name="Loading_Loading" xml:space="preserve">
+    <value>加载中……</value>
+  </data>
+  <data name="Notification_Confirm" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="ThemeSelect.Items" xml:space="preserve">
+    <value>浅色,深色</value>
+  </data>
+  <data name="LangSelect.Items" xml:space="preserve">
+    <value>跟随系统,中文,英文</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Svg_Exit" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M139.5 554.72h646.81L566.66 774.38c-16.2 16.2-16.2 42.47 0 58.68 16.21 16.21 42.48 16.21 58.69 0l290.49-290.49c16.2-16.2 16.2-42.48 0-58.68l-290.49-290.5c-8.1-8.11-18.72-12.16-29.35-12.16-10.62 0-21.24 4.05-29.34 12.16-16.2 16.2-16.2 42.48 0 58.68l219.65 219.65H139.5c-22.92 0-41.5 18.58-41.5 41.5s18.59 41.5 41.5 41.5z"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="PIN" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="PIN_Setting" xml:space="preserve">
+    <value>设置PIN</value>
+  </data>
+  <data name="PIN_Incorrect" xml:space="preserve">
+    <value>PIN不正确</value>
+  </data>
+  <data name="PIN_New" xml:space="preserve">
+    <value>新PIN</value>
+  </data>
+  <data name="PIN_Confirm" xml:space="preserve">
+    <value>确认PIN</value>
+  </data>
+  <data name="PIN_Difference" xml:space="preserve">
+    <value>PIN不一致</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Lang" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Setting_EncryptData" xml:space="preserve">
+    <value>加密数据</value>
+  </data>
+  <data name="Setting_EncryptKey" xml:space="preserve">
+    <value>加密密钥</value>
+  </data>
+  <data name="Setting_PINTimeout" xml:space="preserve">
+    <value>超时时间</value>
+  </data>
+  <data name="Setting_Min" xml:space="preserve">
+    <value>关闭时最小化至托盘</value>
+  </data>
+  <data name="Setting_PINTimeoutMinute" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="Lock_CountDown" xml:space="preserve">
+    <value>已锁定，请在{0}秒后重试</value>
+  </data>
+  <data name="Decrypt" xml:space="preserve">
+    <value>请输入密钥</value>
+  </data>
+  <data name="Decrypt_KeyIncorrect" xml:space="preserve">
+    <value>密钥不正确</value>
+  </data>
+  <data name="NotifyIcon_Open" xml:space="preserve">
+    <value>打开笔记</value>
+  </data>
+  <data name="NotifyIcon_Lock" xml:space="preserve">
+    <value>锁定</value>
+  </data>
+  <data name="NotifyIcon_Exit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="Setting_PrimaryColor" xml:space="preserve">
+    <value>主色调</value>
+  </data>
+  <data name="Setting_PrimaryColorReset" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="Text_Search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="Text_ShowStyle" xml:space="preserve">
+    <value>显示方式</value>
+  </data>
+  <data name="DEFAULT_NoData" xml:space="preserve">
+    <value>什么都没有……</value>
+  </data>
+  <data name="Setting_LockHotKey" xml:space="preserve">
+    <value>锁快捷键</value>
+  </data>
+  <data name="Setting_OpenHotKey" xml:space="preserve">
+    <value>面板快捷键</value>
+  </data>
+  <data name="Loading_RegisterHotKeyFailed" xml:space="preserve">
+    <value>注册{0}失败</value>
+  </data>
+  <data name="Notification_AppCrash" xml:space="preserve">
+    <value>程序崩溃了</value>
+  </data>
+  <data name="Setting_Startup" xml:space="preserve">
+    <value>开机自启动</value>
+  </data>
+  <data name="Svg_Down" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M491.217455 754.641455 11.147636 274.571636c-11.031273-10.938182-11.031273-28.928 0-39.982545 11.054545-11.008 29.021091-11.008 40.005818 0L512 695.458909l460.869818-460.846545c11.031273-11.008 28.928-11.008 40.005818 0 11.031273 11.054545 11.031273 29.044364 0 39.982545L532.829091 754.641455c-5.701818 5.725091-13.312 8.308364-20.829091 8.098909C504.482909 762.949818 496.919273 760.366545 491.217455 754.641455"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="Svg_Up" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M491.217455 232.401455 11.147636 712.448c-11.031273 10.914909-11.031273 28.904727 0 39.959273 11.054545 11.031273 29.021091 11.031273 40.005818 0L512 291.560727 972.869818 752.407273c11.031273 11.031273 28.928 11.031273 40.005818 0 11.031273-11.054545 11.031273-29.044364 0-39.959273L532.829091 232.401455C527.127273 226.653091 519.517091 224.046545 512 224.279273 504.482909 224.046545 496.919273 226.653091 491.217455 232.401455"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+</root>

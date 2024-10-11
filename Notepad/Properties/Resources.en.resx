@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LoginButton.Text.Loding" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="AccountInput.PrefixText" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="PasswordInput.PrefixText" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="AccountInput.PlaceholderText" xml:space="preserve">
+    <value>Email Account</value>
+  </data>
+  <data name="LoginButton.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LoginButton.Text.Logging" xml:space="preserve">
+    <value>Logging</value>
+  </data>
+  <data name="AutoLoginLabel.Text" xml:space="preserve">
+    <value>Auto Login</value>
+  </data>
+  <data name="RememberLabel.Text" xml:space="preserve">
+    <value>Remember Password</value>
+  </data>
+  <data name="LoginButton.Text.AutoLogin" xml:space="preserve">
+    <value>Auto Login After {0} Seconds, Cancel</value>
+  </data>
+  <data name="Loading_LoadingSettings" xml:space="preserve">
+    <value>Loading settings...</value>
+  </data>
+  <data name="Loading_EMallNotSupport" xml:space="preserve">
+    <value>This email is not supported</value>
+  </data>
+  <data name="Loading_LoginFailed" xml:space="preserve">
+    <value>Login Failed: </value>
+  </data>
+  <data name="Valid_AccountRequired" xml:space="preserve">
+    <value>Account is required</value>
+  </data>
+  <data name="Valid_Account" xml:space="preserve">
+    <value>Account invalid</value>
+  </data>
+  <data name="Valid_PasswordRequired" xml:space="preserve">
+    <value>Password is required</value>
+  </data>
+  <data name="SortButton.Tips" xml:space="preserve">
+    <value>Date DESC,Date ASC,Name ASC,Name DESC</value>
+  </data>
+  <data name="FloatButton.ConfigBtn.Select.All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="FloatButton.ConfigBtn.Select.Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Text_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="FloatButton.ConfigBtn.Delete.Notification.Title" xml:space="preserve">
+    <value>Confirm Delete</value>
+  </data>
+  <data name="FloatButton.ConfigBtn.Delete.Notification.Content" xml:space="preserve">
+    <value>Confirm to delete {0} notes. Once deleted, they cannot be restored.</value>
+  </data>
+  <data name="Loading_DeleteSuccess" xml:space="preserve">
+    <value>Deleted successfully</value>
+  </data>
+  <data name="Loading_DeleteFailed" xml:space="preserve">
+    <value>Deletion failed: </value>
+  </data>
+  <data name="Loading_LoadNotes" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="Notification_LoadNotes_Title_Failed" xml:space="preserve">
+    <value>Load Failed</value>
+  </data>
+  <data name="Notification_LoadNotes_Reload" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="Mall_ConnectFailed" xml:space="preserve">
+    <value>Failed to connect to the server</value>
+  </data>
+  <data name="Mall_AuthFailed_IncorrectPassword" xml:space="preserve">
+    <value>Authorization failed, Incorrect password.</value>
+  </data>
+  <data name="Mall_AuthFailed" xml:space="preserve">
+    <value>Authorization failed</value>
+  </data>
+  <data name="Text_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Button.Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Loading_SaveSuccess" xml:space="preserve">
+    <value>Saved successfully</value>
+  </data>
+  <data name="Loading_SaveFailed" xml:space="preserve">
+    <value>Save Failed: </value>
+  </data>
+  <data name="Text_Nothing" xml:space="preserve">
+    <value>Nothing...</value>
+  </data>
+  <data name="Text_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Text_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Button.Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CopySuccess" xml:space="preserve">
+    <value>Copied</value>
+  </data>
+  <data name="CopyFailed" xml:space="preserve">
+    <value>Copy Failure</value>
+  </data>
+  <data name="Loading_Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="Notification_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ThemeSelect.Items" xml:space="preserve">
+    <value>Light,Dark</value>
+  </data>
+  <data name="LangSelect.Items" xml:space="preserve">
+    <value>System,Chinese,English</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="PIN" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="PIN_Setting" xml:space="preserve">
+    <value>PIN Setting</value>
+  </data>
+  <data name="PIN_Incorrect" xml:space="preserve">
+    <value>Incorrect PIN</value>
+  </data>
+  <data name="PIN_New" xml:space="preserve">
+    <value>New PIN</value>
+  </data>
+  <data name="PIN_Confirm" xml:space="preserve">
+    <value>Confirm PIN</value>
+  </data>
+  <data name="PIN_Difference" xml:space="preserve">
+    <value>PIN Error</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="Lang" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Setting_EncryptData" xml:space="preserve">
+    <value>Encrypt Notes</value>
+  </data>
+  <data name="Setting_EncryptKey" xml:space="preserve">
+    <value>Encrypt Key</value>
+  </data>
+  <data name="Setting_PINTimeout" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Setting_Min" xml:space="preserve">
+    <value>Minimize To Tray On Close</value>
+  </data>
+  <data name="Setting_PINTimeoutMinute" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="Lock_CountDown" xml:space="preserve">
+    <value>Locked, please try again in {0} seconds</value>
+  </data>
+  <data name="Decrypt" xml:space="preserve">
+    <value>Please enter the key</value>
+  </data>
+  <data name="Decrypt_KeyIncorrect" xml:space="preserve">
+    <value>Incorrect Key</value>
+  </data>
+  <data name="NotifyIcon_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="NotifyIcon_Lock" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="NotifyIcon_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Setting_PrimaryColor" xml:space="preserve">
+    <value>Primary Color</value>
+  </data>
+  <data name="Setting_PrimaryColorReset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Text_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Text_ShowStyle" xml:space="preserve">
+    <value>Show Style</value>
+  </data>
+  <data name="DEFAULT_NoData" xml:space="preserve">
+    <value>Nothing...</value>
+  </data>
+  <data name="Setting_LockHotKey" xml:space="preserve">
+    <value>Lock HotKey</value>
+  </data>
+  <data name="Setting_OpenHotKey" xml:space="preserve">
+    <value>Open HotKey</value>
+  </data>
+  <data name="Loading_RegisterHotKeyFailed" xml:space="preserve">
+    <value>Failed to register {0}</value>
+  </data>
+  <data name="Notification_AppCrash" xml:space="preserve">
+    <value>Ooh!</value>
+  </data>
+  <data name="Setting_Startup" xml:space="preserve">
+    <value>Startup</value>
+  </data>
+</root>
