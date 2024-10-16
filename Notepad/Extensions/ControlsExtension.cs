@@ -199,10 +199,10 @@ namespace Notepad.Extensions
         /// LinePopover
         /// </summary>
         /// <param name="control"></param>
-        /// <param name="content"></param>
+        /// <param name="text"></param>
         /// <param name="font"></param>
         /// <param name="minWidth"></param>
-        public static void LinePopover(this Control control, string? content = null, Font? font = null, int minWidth = 150)
+        public static void LinePopover(this Control control, string? text = null, Font? font = null, int minWidth = 150)
         {
             if (control.Text!.Length > 0)
             {
@@ -212,11 +212,11 @@ namespace Notepad.Extensions
                 if (graphics.MeasureString(control.Text, control.Font).Width > rectangle.Width)
                 {
                     Form? popover = null;
-                    content ??= control.Text;
+                    text ??= control.Text;
 
-                    var size = graphics.MeasureString(content, control.Font, (rectangle.Width < minWidth ? minWidth : rectangle.Width) - 20, new(StringFormatFlags.LineLimit)).ToSize();
+                    var size = graphics.MeasureString(text, control.Font, (rectangle.Width < minWidth ? minWidth : rectangle.Width) - 20, new(StringFormatFlags.LineLimit)).ToSize();
 
-                    control.MouseHover += (_, _) => popover = control.Popover(content, size: size, font: font);
+                    control.MouseHover += (_, _) => popover = control.Popover(text, size: size, font: font);
                     control.MouseLeave += (_, _) => popover?.Dispose();
                 }
             }
@@ -226,10 +226,9 @@ namespace Notepad.Extensions
         /// HoverLinePopover
         /// </summary>
         /// <param name="control"></param>
-        /// <param name="isReplaceNewLine"></param>
         /// <param name="font"></param>
         /// <param name="minWidth"></param>
-        public static void HoverLinePopover(this Control control, bool isReplaceNewLine = false, Font? font = null, int minWidth = 150)
+        public static void HoverLinePopover(this Control control, Font? font = null, int minWidth = 150)
         {
             Form? popover = null;
 
@@ -242,7 +241,8 @@ namespace Notepad.Extensions
 
                     if (graphics.MeasureString(control.Text, control.Font).Width > rectangle.Width)
                     {
-                        popover = control.Popover(control.Text, size: graphics.MeasureString(isReplaceNewLine ? control.Text.ReplaceNewLine(" ") : control.Text, control.Font, (rectangle.Width < minWidth ? minWidth : rectangle.Width) - 20, new(StringFormatFlags.LineLimit)).ToSize(), font: font);
+                        var text = control.Tag!.ToString()!;
+                        popover = control.Popover(text, size: graphics.MeasureString(text, control.Font, (rectangle.Width < minWidth ? minWidth : rectangle.Width) - 20, new(StringFormatFlags.LineLimit)).ToSize(), font: font);
                     }
                 }
             };

@@ -64,6 +64,7 @@ namespace Notepad
             // 
             LiteButton.Dock = DockStyle.Right;
             LiteButton.Ghost = true;
+            LiteButton.HandCursor = Cursors.Default;
             LiteButton.IconSize = new Size(24, 24);
             LiteButton.Location = new Point(744, 0);
             LiteButton.Name = "LiteButton";

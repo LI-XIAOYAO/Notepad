@@ -21,6 +21,7 @@ namespace Notepad
         private bool _isResize;
         private LockPanel? _lockPanel;
         private static NotifyIcon? _notifyIcon;
+        private List<Color>? _colors;
         private readonly Dictionary<int, int> _hotKeyStates = [];
         private readonly HashSet<Form> _formStates = [];
 
@@ -500,7 +501,7 @@ namespace Notepad
             }
             else
             {
-                var avatarColor = Style.GenerateColors(Style.Db.Primary)[4];
+                var avatarColor = _colors![4];
                 var panelSize = new Size((int)(300 * dpi), (int)(70 * dpi));
 
                 foreach (var item in _notes)
@@ -555,7 +556,7 @@ namespace Notepad
                         Padding = new Padding(5),
                         ForeColor = Style.Db.PrimaryColor,
                         TabStop = false
-                    });
+                    }.Apply(c => ThemeChanged += () => c.BackColor = _colors[4]));
 
                     titleLabel.LinePopover();
 
@@ -1202,6 +1203,8 @@ namespace Notepad
             ShowButton.ForeColor = Style.Db.Primary;
             SortButton.ForeColor = Style.Db.Primary;
             AddButton.ForeColor = Style.Db.Primary;
+
+            _colors = Style.GenerateColors(Style.Db.Primary);
 
             ThemeChanged?.Invoke();
 

@@ -308,6 +308,7 @@ namespace Notepad.Controls
 
                     contentLabel.TextChanged += OnLinkDiscover;
                     contentLabel.Text = item.Value?.ReplaceNewLine(" ");
+                    contentLabel.Tag = item.Value;
 
                     notePanel.Controls.Add(viewButton);
                     notePanel.Controls.Add(editButton);
@@ -369,7 +370,7 @@ namespace Notepad.Controls
                     contentLabel.MouseDoubleClick += Label_MouseDoubleClick;
 
                     titleLabel.HoverLinePopover();
-                    contentLabel.HoverLinePopover(true);
+                    contentLabel.HoverLinePopover();
 
                     _notesPanel.Controls.Add(notePanel);
                     divider?.BringToFront();
@@ -475,8 +476,11 @@ namespace Notepad.Controls
                                 note.Value = content.Text;
 
                                 var controls = button!.Parent!.Controls;
+                                var contentLabel = ((AntdUI.Label)controls[nameof(Note.Value)]!);
+
                                 ((AntdUI.Label)controls[nameof(Note.Title)]!).Text = title.Text;
-                                ((AntdUI.Label)controls[nameof(Note.Value)]!).Text = content.Text.ReplaceNewLine(" ");
+                                contentLabel.Text = content.Text.ReplaceNewLine(" ");
+                                contentLabel.Tag = content.Text;
                             }
                         }
                     };

@@ -138,6 +138,7 @@ namespace Notepad.Controls
                 Radius = 0,
                 WaveSize = 0,
                 Ghost = true,
+                HandCursor = Cursors.Default,
                 TabStop = false
             }.Apply(b => b.MouseClick += (s, e) =>
             {
@@ -196,6 +197,7 @@ namespace Notepad.Controls
                 Radius = 0,
                 WaveSize = 0,
                 Ghost = true,
+                HandCursor = Cursors.Default,
                 Tag = false,
                 TabStop = false
             };

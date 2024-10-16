@@ -56,6 +56,7 @@ namespace Notepad.Controls
         {
             ParentControl = parent ?? throw new ArgumentNullException(nameof(parent));
             AutoWidth = autoWidth;
+            UseDwm = false;
 
             SuspendLayout();
 
