@@ -684,7 +684,7 @@ namespace Notepad
         /// </summary>
         private void LockApp()
         {
-            if (true == _lockPanel?.Visible)
+            if (true == _lockPanel?.Visible || null == Store.Cache.PIN)
             {
                 return;
             }
