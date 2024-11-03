@@ -1122,8 +1122,8 @@ namespace Notepad
 
             if (isUnRegister)
             {
-                notes.LockHotKeys.UnregisterHotKey(Handle);
-                notes.OpenkHotKeys.UnregisterHotKey(Handle);
+                notes.LockHotKeys?.UnregisterHotKey(Handle);
+                notes.OpenkHotKeys?.UnregisterHotKey(Handle);
             }
 
             var errorMsgSb = new StringBuilder();
