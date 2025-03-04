@@ -241,7 +241,7 @@ namespace Notepad.Extensions
 
                     if (graphics.MeasureString(control.Text, control.Font).Width > rectangle.Width)
                     {
-                        var text = control.Tag!.ToString()!;
+                        var text = control.Tag?.ToString() ?? control.Text;
                         popover = control.Popover(text, size: graphics.MeasureString(text, control.Font, (rectangle.Width < minWidth ? minWidth : rectangle.Width) - 20, new(StringFormatFlags.LineLimit)).ToSize(), font: font);
                     }
                 }
